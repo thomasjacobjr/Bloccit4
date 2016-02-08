@@ -20,10 +20,10 @@ topics = Topic.all
 # Create Posts
 50.times do
   post = Post.create!(
-  user: users.sample,
-  topic: topics.sample,
-  title: RandomData.random_sentence,
-  body: RandomData.random_paragraph
+    user: users.sample,
+    topic: topics.sample,
+    title: RandomData.random_sentence,
+    body: RandomData.random_paragraph
   )
 
   post.update_attribute(:created_at, rand(10.minutes .. 1.year).ago)

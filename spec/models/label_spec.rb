@@ -3,9 +3,9 @@ require 'rails_helper'
 RSpec.describe Label, type: :model do
   let(:topic) { build(:topic) }
   let(:user) { build(:user) }
-  let(:post) { build(:post) }  
-  let(:label) { Label.create!(name: 'Label') }
-  let(:label2) { Label.create!(name: 'Label2') }
+  let(:post) { build(:post) }
+  let(:label) { create(:label, name: "L1") }
+  let(:label2) { create(:label, name: "L2") }
 
   it { is_expected.to have_many :labelings }
   it { is_expected.to have_many(:topics).through(:labelings) }

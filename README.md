@@ -12,4 +12,7 @@ create and edit posts, and browse a database of other posts.
 ## Installation ->
 
 Simply clone or download this repo, then run `bundle install` from the  
-command line. All files and gems come prepackaged with the project. 
+command line. All files and gems come prepackaged with the project.
+
+To run this project locally, simply run `rails server` in your command line and
+navigate your browser to localhost:3000.

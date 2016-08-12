@@ -1,5 +1,15 @@
-## Bloccit Version 4.0 - The Final Bloccing ##
+## Bloccit -- A Reddit-Style Application ##
 
-A Reddit replica to (presumably) teach the fundamentals of web development, as well as Ruby on Rails.
+Created by Thomas Jacob Jr. at [Bloc](http://bloc.io)
+Coding Bootcamp
 
-Made in conjunction with the supreme mentoring capabilities of Jean-Denis Vauguet
+## Introduction ->
+
+Bloccit is a Ruby on Rails project that replicates the basic
+functionality of Reddit. It allows users to sign up, sign in and out,
+create and edit posts, and browse a database of other posts.
+
+## Installation ->
+
+Simply clone or download this repo, then run `bundle install` from the  
+command line. All files and gems come prepackaged with the project. 
